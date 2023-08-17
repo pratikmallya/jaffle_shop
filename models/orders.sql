@@ -32,10 +32,10 @@ order_payments as (
 final as (
 
     select
+        orders.status,
         orders.order_id,
         orders.customer_id,
         orders.order_date,
-        orders.status,
 
         {% for payment_method in payment_methods -%}
 
