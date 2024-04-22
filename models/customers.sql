@@ -20,7 +20,7 @@ payments as (
 customer_orders as (
 
         select
-        customer_i,
+        customer_id,
 
 
         min(order_date) as first_order,
