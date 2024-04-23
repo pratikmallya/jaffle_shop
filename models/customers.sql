@@ -45,6 +45,7 @@ customer_payments as (
 
 ),
 
+    
 final as (
 
     select
