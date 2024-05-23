@@ -24,6 +24,7 @@ The raw data consists of customers, orders, and payments, with the following ent
 ![Jaffle Shop ERD](/etc/jaffle_shop_erd.png)
 
 
+
 ### Running this project
 To get up and running with this project:
 1. Install dbt using [these instructions](https://docs.getdbt.com/docs/installation).
