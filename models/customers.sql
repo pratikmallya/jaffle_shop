@@ -33,6 +33,7 @@ customer_orders as (
 
 ),
 
+    
 customer_payments as (
 
     select
