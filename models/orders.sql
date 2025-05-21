@@ -12,6 +12,7 @@ payments as (
 
 ),
 
+
     
 
 order_payments as (
@@ -30,6 +31,11 @@ order_payments as (
     group by order_id
 
 ),
+
+
+    
+    
+    
 
 final as (
 
