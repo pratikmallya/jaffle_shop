@@ -15,6 +15,8 @@ payments as (
 
     
 
+
+    
 order_payments as (
 
     select
